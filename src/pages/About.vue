@@ -3,7 +3,8 @@
     <Navbar />
     <div class="jumbotron m-0 jumbotron-fluid">
       <div class="container">
-        <h2 class="display-4">This is an About Page</h2>
+        <HomeComponentB />
+        <HomeComponentA />
       </div>
     </div>
   </div>
@@ -11,10 +12,14 @@
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+import HomeComponentA from "@/components/Home/HomeComponentA.vue";
+import HomeComponentB from "@/components/Home/HomeComponentB.vue";
 
 export default {
   name: "About",
   components: {
+    HomeComponentB,
+    HomeComponentA,
     Navbar,
   },
 };

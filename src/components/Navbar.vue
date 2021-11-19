@@ -40,24 +40,9 @@
           </router-link>
         </li>
         <li right="" class="nav-item">
-          <a
-            href="https://github.com/Vue-Boilerplates"
-            rel="noopener"
-            target="_blank"
-            class="nav-link"
-          >
-            GitHub
-          </a>
-        </li>
-        <li right="" class="nav-item">
-          <a
-            href="https://github.com/Vue-Boilerplates/vue-bootstrap-boilerplate"
-            rel="noopener"
-            target="_blank"
-            class="nav-link"
-          >
-            v1.0.0
-          </a>
+          <router-link to="/banner" class="nav-link">
+            Banner
+          </router-link>
         </li>
       </ul>
     </div>

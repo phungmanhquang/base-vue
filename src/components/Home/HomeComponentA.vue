@@ -1,10 +1,14 @@
 <template>
-
+<div>
+  <hr>
+  <h1>Su dung bootstrap</h1>
+  <hr>
+</div>
 </template>
 
 <script>
 export default {
-  name: "Default"
+  name: "HomeComponentA"
 };
 </script>
 
